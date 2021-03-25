@@ -110,10 +110,10 @@ int main()
     int N = 0;
     cin >> N;
     create_fib_list(head, N);
-    //print_list(head);
-   // cout<<endl<<endl;
+    print_list(head);
+    cout<<endl<<endl;
     del_odd(head);
-    //print_list(head);
+    print_list(head);
     cout << sum(head);
-    //system("pause");
+    system("pause");
 }
